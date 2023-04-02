@@ -3,17 +3,10 @@ from escola.models import Aluno, Curso, Matricula
 
 
 class Alunos(admin.ModelAdmin):
-    """  Quais os Campos que eu quero exibir no display do meu admin """
     list_display = ('id', 'nome', 'rg', 'cpf', 'data_nascimento')
-    """ Sempre que eu quiser alterar algum aluno posso clicar ou no id ou no nome """
     list_display_links = ('id', 'nome')
-    """ eu quero também um campo de busca de alunos por nome """
     search_fields = ('nome',)
-    """ paginação na quantidade de alunos """
     list_per_page = 20
-    
-    """ o primeiro parametro é o modelo, e o segundo e a configuração
-       do model admin que foi feito"""
 
 
 admin.site.register(Aluno, Alunos)
