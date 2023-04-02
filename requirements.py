@@ -1,0 +1,17 @@
+asgiref==3.6.0
+bcrypt==4.0.1
+cffi==1.15.1
+cryptography==40.0.1
+Django==4.1.7
+djangorestframework==3.14.0
+fabric==3.0.0
+fake==0.8
+invoke==2.0.0
+Markdown==3.4.3
+paramiko==3.1.0
+pycparser==2.21
+PyNaCl==1.5.0
+pytz==2022.7.1
+sqlparse==0.4.3
+tzdata==2022.7
+validate-docbr==1.10.0
